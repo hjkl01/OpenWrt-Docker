@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Delete Workflow Runs
-        uses: GitRML/delete-workflow-runs@main
+        uses: GitRML/delete-workflow-runs@master
         with:
           token: ${{ secrets.TOKEN }}
           retain_days: 3
