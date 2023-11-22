@@ -13,4 +13,4 @@ jobs:
         with:
           token: ${{ secrets.TOKEN }}
           repository: ${{ github.repository }}
-          retain_days: 65
+          retain_days: 15
