@@ -17,7 +17,7 @@ on:
       INPUT_TARGET:
         description: "Target to build (platform/target/subtarget)"
         required: false
-        default: "x86_64/x86/64/linux-amd64/amd64"
+        default: "all"
   schedule:
     - cron: 0 2 * * 5
 
