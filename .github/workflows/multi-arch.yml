@@ -12,6 +12,11 @@ env:
   PREFIX_URL: https://storage.openwrt.cc/snapshots/targets
 
 on:
+  push:
+    branches:
+      - master
+  watch:
+    types: [started]
   workflow_dispatch:
     inputs:
       INPUT_TARGET:
